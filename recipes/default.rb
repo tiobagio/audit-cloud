@@ -8,8 +8,8 @@ chef_gem "inspec" do
   action :install
 end
 
-ENV['AWS_ACCESS_KEY_ID'] = "ASIAXHDZVFZT7BWNNUMM"
-ENV['AWS_SECRET_ACCESS_KEY_ID'] = "Xp/VFNnQtlHA0awEbKGQscY95sEk4c22jvc7Xbn1"
+ENV['AWS_ACCESS_KEY_ID'] = ""
+ENV['AWS_SECRET_ACCESS_KEY_ID'] = ""
 ENV['AWS_REGION'] = "ap-southeast-1"
 
 node.override['audit']['fetcher'] = 'chef-server'
